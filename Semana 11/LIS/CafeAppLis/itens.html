@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Produtos </title>
+</head>
+<body>
+    <div class="div-father">
+        <h3 style="text-align: center;">Cadastro de itens</h3>
+        <form id="foodForm">
+            <div class="mb-3">
+                <label 
+                    for="nome" 
+                    class="label-name" 
+                    >Nome 
+                </label>
+                <input 
+                    type="text" 
+                    name="nome" 
+                    id="nome" 
+                    class="input-name"
+                >
+            </div>
+            <div class="mb-3">
+                <label 
+                    for="nome" 
+                    class="label-description" 
+                    >Descrição 
+                </label>
+                <input 
+                    type="text" 
+                    name="nome" 
+                    id="nome" 
+                    class="input-description"
+                >
+            </div>
+            <div class="mb-3">
+                <label 
+                    for="descricao" 
+                    class="label-price">
+                    Preço
+                </label>
+                <input 
+                    type="number" 
+                    name="descricao" 
+                    id="descricao" 
+                    class="input-price">
+            </div>
+            <div class="mb-3">
+                <label 
+                    for="preco" 
+                    class="label-image">
+                    Upload do arquivo de imagem
+                </label>
+                <input 
+                    type="file" 
+                    name="preco" 
+                    id="preco" 
+                    class="image">
+            </div>
+            <div class="mb-3">
+                <label 
+                    for="preco" 
+                    class="label-image">
+                    Adicione um link de imagem
+                </label>
+                <input 
+                    type="link" 
+                    name="preco" 
+                    id="preco" 
+                    class="image">
+            </div>
+            <div class="modal-footer">
+                <button 
+                    type="clear" 
+                    class="btn btn-secondary" 
+                    data-bs-dismiss="modal">
+                    Limpar
+                </button>
+                <button 
+                    type="submit" 
+                    class="btn btn-primary" 
+                    id="adicionarFoodButton">
+                    Adicionar
+                </button>
+                <button 
+                    type="close" 
+                    class="btn btn-primary" 
+                    id="close">
+                    Fechar
+                </button>
+            </div>
+        </form>
+    </div>  
+</body>
+<style>
+
+.div-father{
+    background-color:cyan; 
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+}
+.label-name{
+    background-color: aqua;
+    margin-top: 2%;
+}
+.input-name {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: 85%;
+}
+.label-description {
+    background-color: aqua;
+    margin-top: 2%;
+}
+.input-description {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: 85%;
+}
+.label-price {
+    background-color: aqua;
+    margin-top: 2%;
+}
+.input-price {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: 85%;
+}
+.label-image {
+    background-color: aqua;
+    margin-top: 2%;
+}
+.image {
+    width: 60%;
+    margin-top: 1%;
+    margin-right: 85%;
+    margin-bottom: 4%;
+}
+
+</style>
+</html>
